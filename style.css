@@ -1,0 +1,208 @@
+/* =========================================
+   DEEP LEARNING PORTFOLIO
+   Gothic Editorial / Luxury Theme
+   ========================================= */
+
+:root {
+    --ivory: #f2eadb;
+    --ivory-soft: #e8decd;
+    --burgundy: #6e1724;
+    --burgundy-dark: #3a0d14;
+    --burgundy-light: #8d2635;
+    --charcoal: #171516;
+    --charcoal-soft: #211d1e;
+    --gold: #b79a63;
+}
+
+/* -----------------------------------------
+   Global
+   ----------------------------------------- */
+
+body {
+    background: var(--charcoal);
+    color: var(--ivory);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* -----------------------------------------
+   Main content
+   ----------------------------------------- */
+
+.bd-main {
+    background: var(--charcoal);
+}
+
+.bd-content {
+    max-width: 1000px;
+}
+
+/* -----------------------------------------
+   Headings
+   ----------------------------------------- */
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Georgia, "Times New Roman", serif;
+    color: var(--ivory);
+    letter-spacing: -0.02em;
+}
+
+h1 {
+    font-size: clamp(2.8rem, 6vw, 5rem);
+    line-height: 1;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-top: 3rem;
+    padding-bottom: 0.7rem;
+    border-bottom: 1px solid rgba(183, 154, 99, 0.35);
+}
+
+h3 {
+    color: var(--ivory-soft);
+    font-size: 1.45rem;
+}
+
+/* -----------------------------------------
+   Paragraphs
+   ----------------------------------------- */
+
+p {
+    color: var(--ivory-soft);
+    line-height: 1.85;
+    font-size: 1rem;
+}
+
+/* -----------------------------------------
+   Links
+   ----------------------------------------- */
+
+a {
+    color: #c99a9f;
+    text-decoration: none;
+    transition: all 0.25s ease;
+}
+
+a:hover {
+    color: var(--gold);
+}
+
+/* -----------------------------------------
+   Navigation
+   ----------------------------------------- */
+
+.bd-sidebar {
+    background: #120f10;
+    border-right: 1px solid rgba(183, 154, 99, 0.18);
+}
+
+.bd-sidebar .nav-link {
+    color: #cfc4b5;
+    transition: all 0.25s ease;
+}
+
+.bd-sidebar .nav-link:hover {
+    color: var(--ivory);
+}
+
+.bd-sidebar .nav-link.active {
+    color: var(--ivory);
+    border-left: 2px solid var(--burgundy-light);
+}
+
+/* -----------------------------------------
+   Code
+   ----------------------------------------- */
+
+code {
+    color: #d7b7ba;
+    background: rgba(110, 23, 36, 0.18);
+    border: 1px solid rgba(183, 154, 99, 0.12);
+    padding: 0.15rem 0.35rem;
+    border-radius: 3px;
+}
+
+pre {
+    background: #100e0f !important;
+    border: 1px solid rgba(183, 154, 99, 0.18);
+    border-left: 3px solid var(--burgundy);
+    border-radius: 4px;
+}
+
+/* -----------------------------------------
+   Tables
+   ----------------------------------------- */
+
+table {
+    color: var(--ivory-soft);
+}
+
+table thead {
+    background: var(--burgundy-dark);
+}
+
+table th {
+    color: var(--ivory);
+}
+
+table td {
+    border-color: rgba(183, 154, 99, 0.15);
+}
+
+/* -----------------------------------------
+   Blockquotes
+   ----------------------------------------- */
+
+blockquote {
+    border-left: 3px solid var(--gold);
+    padding-left: 1.2rem;
+    color: #cfc4b5;
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+}
+
+/* -----------------------------------------
+   Horizontal rules
+   ----------------------------------------- */
+
+hr {
+    border: 0;
+    border-top: 1px solid rgba(183, 154, 99, 0.3);
+    margin: 3rem 0;
+}
+
+/* -----------------------------------------
+   Selection
+   ----------------------------------------- */
+
+::selection {
+    background: var(--burgundy);
+    color: var(--ivory);
+}
+
+/* -----------------------------------------
+   Scrollbar
+   ----------------------------------------- */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #120f10;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--burgundy);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--burgundy-light);
+}
+

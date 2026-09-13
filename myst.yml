@@ -1,0 +1,16 @@
+version: 1
+
+project:
+  title: Deep Learning Portfolio
+  description: A collection of my Deep Learning lessons, activities, and projects
+  toc:
+    - file: index.md
+    - file: lessons.md
+    - file: activities.md
+    - file: projects.md
+
+site:
+  template: book-theme
+  options:
+    style: ./style.css
+
