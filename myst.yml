@@ -4,10 +4,17 @@ project:
   title: Deep Learning Portfolio
   description: A collection of my Deep Learning lessons, activities, and projects
   toc:
-    - file: index.md
-    - file: lessons.md
-    - file: activities.md
-    - file: projects.md
+  - file: index.md
+
+  - file: lessons.md
+    children:
+      - file: lessons/A - Foundational Concept of Deep Learning.ipynb
+      - file: lessons/B - Understanding Deep Learning.ipynb
+      - file: lessons/C - PyTorch Basics.ipynb
+
+  - file: activities.md
+
+  - file: projects.md
 
 site:
   template: book-theme
