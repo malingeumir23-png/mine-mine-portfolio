@@ -1,6 +1,6 @@
 # Eumir Maling
 
-**4th Year Bachelor of Science in Data Science**
+**Bachelor of Science in Data Science | 4th year**
 
 ## About Me
 
