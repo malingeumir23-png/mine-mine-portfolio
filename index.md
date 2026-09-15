@@ -1,22 +1,33 @@
-# Deep Learning Portfolio
+# Eumir Maling
 
-## Eumir Maling
+**4th Year Bachelor of Science in Data Science**
 
-**Bachelor of Science in Data Science**
+## About Me
 
-### About Me
+I am a 4th year Data Science student interested in machine learning, deep learning, data analysis, and the practical use of data to solve problems. This portfolio contains my work and learning progress throughout the course.
 
-I am a Data Science student interested in deep learning, machine learning, and the practical use of data. This portfolio presents my lessons, activities, and projects throughout the course.
+## Data Science Interests
 
-### What I'm Learning
+- Machine Learning and Deep Learning
+- Data Analysis and Visualization
+- Geospatial Data and GIS
+- Artificial Intelligence
+- Cloud-Based Applications
 
-* Neural Networks and Linear Functions
-* Feed-Forward Neural Networks
-* Recurrent Neural Networks
-* Deep Learning Models and Applications
-* Model Training and Evaluation
-* Python and PyTorch
+## Skills and Tools
 
-### Portfolio
+- **Programming:** Python
+- **Machine Learning:** Scikit-learn
+- **Deep Learning:** PyTorch
+- **Data Analysis:** Pandas, NumPy
+- **Visualization:** Matplotlib
+- **Web and APIs:** FastAPI
+- **Development:** Git and GitHub
 
-This portfolio contains my course lessons, hands-on activities, notebooks, and selected projects in Deep Learning.
+## Portfolio
+
+This portfolio contains my lessons, hands-on activities, notebooks, and selected projects from the course.
+
+- [Lessons](lessons.md)
+- [Activities](activities.md)
+- [Projects](projects.md)

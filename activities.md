@@ -1,4 +1,7 @@
 # Activities
 
-This section contains the activities, exercises, and practical work completed throughout the course.
+This section contains my activities and hands-on work throughout the course.
 
+## Activities
+
+- [Homework 1.1](activities/Homework%201.1.pdf)
