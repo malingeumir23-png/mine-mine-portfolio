@@ -18,10 +18,20 @@
    Global
    ----------------------------------------- */
 
+html {
+    background: #171516;
+}
+
 body {
-    background: var(--charcoal);
+    background-color: #171516;
+    background-image: url("./images/background.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     color: var(--ivory);
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    min-height: 100vh;
 }
 
 /* -----------------------------------------
@@ -29,11 +39,28 @@ body {
    ----------------------------------------- */
 
 .bd-main {
-    background: var(--charcoal);
+    background: transparent !important;
+}
+
+.bd-main-container {
+    background: transparent !important;
 }
 
 .bd-content {
+    background: transparent !important;
     max-width: 1000px;
+}
+
+.bd-article-container {
+    background: transparent !important;
+}
+
+/* -----------------------------------------
+   Main article
+   ----------------------------------------- */
+
+article {
+    background: transparent !important;
 }
 
 /* -----------------------------------------
@@ -98,7 +125,7 @@ a:hover {
    ----------------------------------------- */
 
 .bd-sidebar {
-    background: #120f10;
+    background: rgba(18, 15, 16, 0.94);
     border-right: 1px solid rgba(183, 154, 99, 0.18);
 }
 
@@ -206,3 +233,21 @@ hr {
     background: var(--burgundy-light);
 }
 
+/* -----------------------------------------
+   Mobile
+   ----------------------------------------- */
+
+@media (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+        background-position: center center;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+}
