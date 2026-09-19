@@ -39,16 +39,7 @@ jobs:
         run: pip install "jupyter-book>=2.1.6,<3"
 
       - name: Build HTML
-        run: jupyter-book build --html
-
-      - name: Check build output
-        run: |
-          echo "Current directory:"
-          pwd
-          echo "Build directories:"
-          find . -maxdepth 4 -type d \( -name "html" -o -name "_build" \)
-          echo "Top-level files:"
-          ls -la
+        run: jupyter-book build --html --output-dir _build/html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
