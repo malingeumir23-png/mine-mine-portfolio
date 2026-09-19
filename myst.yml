@@ -1,3 +1,12 @@
+version: 1
+
+project:
+  title: Deep Learning Portfolio
+  description: A collection of my Deep Learning lessons, activities, and projects
+
+  static_files:
+    - images
+
   toc:
     - file: index.md
 
