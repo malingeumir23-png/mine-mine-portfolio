@@ -1,27 +1,20 @@
-version: 1
-
-project:
-  title: Deep Learning Portfolio
-  description: A collection of my Deep Learning lessons, activities, and projects
-
-  static_files:
-    - images
-
   toc:
     - file: index.md
 
     - file: lessons.md
       children:
-        - file: lessons/A - Foundational Concept of Deep Learning.ipynb
-        - file: lessons/B - Understanding Deep Learning.ipynb
-        - file: lessons/C - PyTorch Basics.ipynb
+        - title: Week 2
+          children:
+            - file: lessons/Week 2/A - Foundational Concept of Deep Learning.ipynb
+            - file: lessons/Week 2/B - Understanding Deep Learning.ipynb
+            - file: lessons/Week 2/C - PyTorch Basics.ipynb
+
+        - title: Week 3
+          children:
+            - file: lessons/Week 3/A - Foundational Concept of Deep Learning.ipynb
+            - file: lessons/Week 3/B - Understanding Deep Learning.ipynb
+            - file: lessons/Week 3/C - PyTorch Basics.ipynb
 
     - file: activities.md
 
     - file: projects.md
-
-site:
-  template: book-theme
-  options:
-    style: ./style.css
-
