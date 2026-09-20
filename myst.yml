@@ -25,5 +25,9 @@ project:
             - file: lessons/Week 3/C - PyTorch Basics.ipynb
 
     - file: activities.md
-
     - file: projects.md
+
+site:
+  template: book-theme
+  options:
+    style: ./style.css
