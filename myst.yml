@@ -31,3 +31,5 @@ site:
   template: book-theme
   options:
     style: ./style.css
+  parts:
+    primary_sidebar_footer: _site/primary_sidebar_footer.md
