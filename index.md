@@ -8,11 +8,12 @@ I am a 4th year Data Science student interested in machine learning, deep learni
 
 ## Data Science Interests
 
-- Machine Learning and Deep Learning
-- Data Analysis and Visualization
-- Geospatial Data and GIS
-- Artificial Intelligence
-- Cloud-Based Applications
+- Deep Learning and Machine Learning
+- Working with real-world datasets
+- Data visualization and exploration
+- Geospatial data and mapping
+- Building practical AI applications
+- Cloud-based and API development
 
 ## Skills and Tools
 
