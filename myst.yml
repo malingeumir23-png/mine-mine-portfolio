@@ -26,7 +26,7 @@ project:
 
     - file: activities.md
       children:
-       - file: activities/Laboratory_Task_2_Forward_Pass_Error_Computation_.ipynb
+       - file: activities/Laboratory_Task_2.ipynb
        - file: activities/Laboratory_Task_3.ipynb
        - file: activities/Laboratory_Task_4.ipynb
        - file: activities/Laboratory_Task_5.ipynb
