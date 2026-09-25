@@ -1,3 +1,5 @@
+:::{div}
+:class: portfolio-glass
 # Eumir Maling
 
 **Bachelor of Science in Data Science | 4th year**
@@ -32,3 +34,5 @@ This portfolio contains my lessons, hands-on activities, notebooks, and selected
 - [Lessons](lessons.md)
 - [Activities](activities.md)
 - [Projects](projects.md)
+
+:::

@@ -33,7 +33,6 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     min-height: 100vh;
 }
-
 /* -----------------------------------------
    Main content
    ----------------------------------------- */
@@ -52,14 +51,23 @@ body {
 }
 
 .bd-article-container {
-    background: rgba(255, 255, 255, 0.08) !important;
-    backdrop-filter: blur(18px);
-    -webkit-backdrop-filter: blur(18px);
-    border: 1px solid rgba(255, 255, 255, 0.16);
+    background: rgba(255, 255, 255, 0.10) !important;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.20);
     border-radius: 22px;
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.28);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.30);
     padding: 3rem;
 }
+
+.bd-article {
+    background: transparent !important;
+}
+
+.bd-article > * {
+    background: transparent !important;
+}
+
 /* -----------------------------------------
    Main article
    ----------------------------------------- */
@@ -260,4 +268,17 @@ hr {
     h2 {
         font-size: 1.8rem;
     }
+}
+/* Keep MyST top bar, but remove MyST branding */
+.myst-home-link {
+    display: none !important;
+}
+
+/* Remove the empty left-side branding area */
+.myst-top-nav-bar > div:first-child {
+    display: none !important;
+}
+/* Hide the automatically generated page title on the portfolio homepage */
+.myst-fm-block-title {
+    display: none !important;
 }
