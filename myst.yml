@@ -30,6 +30,7 @@ project:
        - file: activities/Laboratory_Task_3.ipynb
        - file: activities/Laboratory_Task_4.ipynb
        - file: activities/Laboratory_Task_5.ipynb
+       - file: activities/Laboratory Exercise (Model Inference on Custom Dataset).ipynb
 
     - file: projects.md
 
